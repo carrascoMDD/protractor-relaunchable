@@ -1,5 +1,14 @@
-Protractor [![Build Status](https://travis-ci.org/angular/protractor.png?branch=master)](https://travis-ci.org/angular/protractor)
-==========
+Protractor-ReLaunchable
+=======================
+
+Experimental hack on protractor v1.3.1 originally by Julie Ralph ju.ralph@gmail.com, used by package asyncshell http://github.com/carrascoMDD/asyncshell to reset state kept in certain properties, such that it allows relaunching protractor multiple times within the same NodeJS operating system process.
+
+
+original work
+-------------
+
+[See original Protractor](http://angular.github.io/protractor)
+
 
 [Protractor](http://angular.github.io/protractor) is an end-to-end test framework for [AngularJS](http://angularjs.org/) applications. Protractor is a [Node.js](http://nodejs.org/) program built on top of [WebDriverJS](https://code.google.com/p/selenium/wiki/WebDriverJs). Protractor runs tests against your application running in a real browser, interacting with it as a user would. 
 
@@ -23,7 +32,7 @@ For Contributors
 ----------------
 Clone the github repository:
 
-    git clone https://github.com/angular/protractor.git
+    git clone https://github.com/angular/protractor-relaunchable.git
     cd protractor
     npm install
 
